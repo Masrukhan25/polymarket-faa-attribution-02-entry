@@ -32,7 +32,7 @@ E|change| = sigma * sqrt(2/pi), so
 Sigma is clamped to [0.0005, 0.02]. A market with fewer than 2 prices
 takes the baseline's 0.0025.
 
-**Drrift: none (0).** The price is treated as a martingale: the best
+**Drift: none (0).** The price is treated as a martingale: the best
 forecast of the future price is the current price. Every drift I tested —
 a shrunk recent trend over 30, 60 or 120 minutes, shrink 0.1 to 0.25 —
 made the practice loss worse on both halves of the practice, so the drift
